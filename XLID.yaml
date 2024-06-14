@@ -84,5 +84,5 @@ rule-providers:
     type: http
     behavior: classical
     path: "./Bundling.yaml"
-    url: https://raw.githubusercontent.com/wwahyudm/cmfa/main/fullrule.yaml
+    url: https://raw.githubusercontent.com/yadie-79/bug/main/bundling
     interval: 86400

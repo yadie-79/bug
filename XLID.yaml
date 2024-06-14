@@ -86,10 +86,10 @@ proxy-groups:
     interval: 100
     proxies:
       - DIRECT
-  use:
-    - VIDIO
-    - XCL
-    - coba
+    use:
+      - VIDIO
+      - XCL
+      - coba
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING

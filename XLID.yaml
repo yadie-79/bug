@@ -73,8 +73,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
-      - coba
-  - name: XCL
+      - XCL
+  - name: coba
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300

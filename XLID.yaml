@@ -62,34 +62,34 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 100    
 proxy-groups:
-- name: VIDIO
-  type: url-test
-  url: 'http://www.gstatic.com/generate_204'
-  interval: 300
-  use:
-    - VIDIO
-- name: XCL
-  type: url-test
-  url: 'http://www.gstatic.com/generate_204'
-  interval: 300
-  use:
-    - XCL
-- name: coba
-  type: url-test
-  url: 'http://www.gstatic.com/generate_204'
-  interval: 300
-  use:
-    - coba    
-- name: BUNDLING
-  type: select
-  url: 'http://www.gstatic.com/generate_204'
-  interval: 100
-  proxies:
-    - DIRECT
-  use:
-    - VIDIO
-    - XCL
-    - coba
+  - name: VIDIO
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - VIDIO
+  - name: XCL
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - XCL
+  - name: coba
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - coba    
+  - name: BUNDLING
+    type: select
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    proxies:
+      - DIRECT
+    use:
+      - VIDIO
+      - XCL
+      - coba
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING

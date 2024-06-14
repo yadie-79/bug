@@ -68,12 +68,12 @@ proxy-groups:
     interval: 300
     use:
       - VIDIO
-- name: XCL
-  type: url-test
-  url: 'http://www.gstatic.com/generate_204'
-  interval: 300
-  use:
-    - XCL
+  - name: XCL
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+      use:
+        - XCL
   - name: coba
     type: url-test
     url: 'http://www.gstatic.com/generate_204'

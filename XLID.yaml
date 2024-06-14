@@ -37,30 +37,30 @@ tun:
 experimental:
   interface-name: en0
 proxy-providers:
-VIDIO:
-  type: file
-  path: "./vidio.yaml"
-  url: https://raw.githubusercontent.com/yadie-79/bug/main/vidio.yaml
-  health-check:
-    enable: true
-    url: http://www.gstatic.com/generate_204
-    interval: 100
-XCL:
-  type: file
-  path: "./xcl.yaml"
-  url: https://raw.githubusercontent.com/yadie-79/bug/main/xcl.yaml
-  health-check:
-    enable: true
-    url: http://www.gstatic.com/generate_204
-    interval: 100
-coba:
-  type: file
-  path: "./coba.yaml"
-  url: https://raw.githubusercontent.com/yadie-79/bug/main/coba.yaml
-  health-check:
-    enable: true
-    url: http://www.gstatic.com/generate_204
-    interval: 100    
+  VIDIO:
+    type: file
+    path: "./vidio.yaml"
+    url: https://raw.githubusercontent.com/yadie-79/bug/main/vidio.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  XCL:
+    type: file
+    path: "./xcl.yaml"
+    url: https://raw.githubusercontent.com/yadie-79/bug/main/xcl.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  coba:
+    type: file
+    path: "./coba.yaml"
+    url: https://raw.githubusercontent.com/yadie-79/bug/main/coba.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100    
 proxy-groups:
 - name: VIDIO
   type: url-test

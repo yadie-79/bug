@@ -11,7 +11,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: 172.67.5.14
@@ -26,7 +26,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: 104.22.5.240
@@ -41,7 +41,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: 104.22.4.240
@@ -56,7 +56,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: 104.16.15.120
@@ -71,7 +71,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: 104.16.14.120
@@ -86,7 +86,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: 104.16.16.120
@@ -101,7 +101,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: 104.16.17.120
@@ -116,7 +116,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: quiz.int.vidio.com
@@ -131,7 +131,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: quiz.vidio.com
@@ -146,7 +146,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: img.email2.vidio.com
@@ -161,7 +161,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: img.email3.vidio.com
@@ -176,7 +176,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: img.email1.vidio.com
@@ -191,7 +191,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: quiz.staging.vidio.com
@@ -206,7 +206,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: nontontv.vidio.com
@@ -221,7 +221,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: wong.cirebon.store
@@ -236,7 +236,7 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id
 - name: vidio.cirebon.store
@@ -251,6 +251,6 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: /vmess-ntls
     headers:
       Host: xray-sdc.skartistore.my.id

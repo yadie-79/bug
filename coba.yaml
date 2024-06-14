@@ -1,16 +1,18 @@
 proxies:
 - name: ava.game.naver.com
-  type: vmess
-  server: ava.game.naver.com
-  port: 80
-  uuid: 67f16ce7-5f4c-4e6c-b69f-1e92f9270081
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /vmess-ntls
-    headers:
-      Host: xray-sdc.skartistore.my.id
+    server: ava.game.naver.com
+    port: 80
+    type: vmess
+    uuid: 67f16ce7-5f4c-4e6c-b69f-1e92f9270081
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: xray-sdc.skartistore.my.id
+    network: ws
+    ws-opts:
+      path: /vmess-ntls
+      headers:
+        Host: xray-sdc.skartistore.my.id
+    udp: true
+      
